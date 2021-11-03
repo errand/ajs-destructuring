@@ -7,7 +7,14 @@
  */
 export default function setWeaponDescription(character) {
   if (typeof character === 'object' && !Array.isArray(character) && character !== null) {
-
+    if ('special' in character) {
+      const { special } = character;
+      special.forEach((el) => {
+        // eslint-disable-next-line no-param-reassign
+        (el ?? {}).description ??= 'Описание недоступно';
+      });
+      return special;
+    }
   }
   throw new Error('Character argument should be an Object');
 }
