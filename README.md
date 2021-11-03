@@ -1,6 +1,7 @@
 # Домашнее задание к лекции «Object, Reflection и Proxy»
 
-[![Build status](https://ci.appveyor.com/api/projects/status/126c262iij9g8d10?svg=true)](https://ci.appveyor.com/project/errand/ajs-object-reflection-proxy)
+[![Build status](https://ci.appveyor.com/api/projects/status/017o775dexwkmqrt?svg=true)](https://ci.appveyor.com/project/errand/ajs-destructuring)
+
 
 ## Destructuring
 
