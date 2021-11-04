@@ -14,6 +14,8 @@ export default function setWeaponDescription(character) {
         (el ?? {}).description ??= 'Описание недоступно';
       });
       return special;
+    } else {
+      throw new Error('No Special parameter in Character');
     }
   }
   throw new Error('Character argument should be an Object');
